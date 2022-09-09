@@ -1,8 +1,15 @@
+.xl_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .content {
   margin-left: 2px;
 }
 .tasto {
-  background-color: #a5cff3 ;
+  background-color: #ea5216 ;
   color: #175c97;
   font-size: 22pt;
   border: none;
