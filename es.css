@@ -1,3 +1,7 @@
+body {
+  background-color: antiquewhite;
+}
+
 .xl_container {
   height: 100vh;
   display: flex;
