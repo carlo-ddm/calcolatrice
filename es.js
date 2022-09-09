@@ -9,12 +9,13 @@ function n(dato){
 function operazione() { 
   audio.play()
   document.getElementById("operazioni").value=eval(document.getElementById("operazioni").value); 
-  /** Prendo il display. Alla funzione operazione(), con il metodo eval() i valori presenti vengono operati*/ 
+  /** Prendo il display. Alla funzione operazione(), con il metodo eval() i valori presenti vengono operati */ 
 }
    
 function cancella() {
   audio.play() 
-  document.getElementById("operazioni").value=""; 
+  document.getElementById("operazioni").value="";
+   /** Prendo il display. Alla funzione cancella() il valore torna vuoto */ 
 }
 
 
